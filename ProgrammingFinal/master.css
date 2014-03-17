@@ -1,0 +1,59 @@
+body {
+	background: url('images/background.jpg');
+	overflow: hidden;
+}
+#bigCont {
+	margin: 0 auto 0 auto;
+	margin-bottom: 300px;
+	width: 1250px;
+}
+#container {
+	background: white;
+	float: left;
+}
+#navSec {
+	width: 350px;
+	height: 300px;
+	margin-top: 100px;
+	background: #e9e9e9;
+	float: left;
+
+}
+#nav li {
+	display: inline;
+	text-align: right;
+}
+#nav a {
+	text-decoration: none;
+	color: #747474;
+	font-family: Times, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#nav a:hover {
+	color: #000000;
+}
+.butts {
+	padding-left: 90px;
+}
+#logo {
+	padding-right: 83px;
+	padding-left: 83px;
+	position: relative;
+	bottom: 20px;
+}
+#bigPic {
+	width: 900px;
+	height: 534px;
+}
+#bigone, #bigtwo, #bigthree, #bigfour, #bigfive, #bigsix, #bigseven {
+	display: none;
+}
+#smallPic li {
+	display: inline;
+}
+#smallone, #smalltwo, #smallthree, #smallfour, #smallfive, #smallsix, #smallseven, #smalleight {
+	float: right;
+	padding-right: 10px;
+	padding-left: 16px;
+	padding-top: 16px;
+}
